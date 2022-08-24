@@ -7,8 +7,4 @@ def uppercase(str):
             asci = ord(char)
             char = chr(asci - 32)
 
-count = 3
-while count > 0:
-    x = input("> ")
-    print(uppercase(x))
-    count -= 1
+    print("{}".format(str))
